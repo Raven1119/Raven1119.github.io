@@ -1,0 +1,49 @@
+title: Raven / 研究手记
+subtitle: 材料 · 智能体 · 工作流
+description: Raven 的研究过程、技术笔记与项目开发记录。
+author: Raven
+language: zh-CN
+timezone: Asia/Shanghai
+url: https://raven1119.github.io
+root: /
+permalink: notes/:title/
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+new_post_name: :title.md
+default_layout: post
+external_link:
+  enable: true
+  field: site
+  exclude: []
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: false
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false
+  tab_replace: '  '
+prismjs:
+  enable: false
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+archive_generator:
+  per_page: 20
+category_generator:
+  per_page: 20
+tag_generator:
+  per_page: 20
+pagination_dir: page
+per_page: 10
+theme: construct

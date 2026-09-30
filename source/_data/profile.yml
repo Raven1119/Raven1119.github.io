@@ -1,0 +1,15 @@
+# 修改这里即可更新首页、关于页和页脚，无需编辑模板。
+name: Raven
+location: 南京
+education: 南京大学 · 化学系
+stage: 本科大三在读
+expected_graduation: 2028
+bio: 我是 Raven，南京大学化学系本科生。关注 AI Agent 与科研智能体、可复用科研工作流、神经接口材料和高分子膜分离模拟。
+about: 我目前在南京大学化学系读大三，预计于2028年毕业。我的探索横跨材料研究与AI工具开发：一方面关注神经接口材料和高分子膜分离，另一方面探索智能体架构与可复用科研工作流。在这里，我会记录研究过程、技术笔记，以及Lumina、CyberScientist和Noespire的开发进展。
+email: wmywbyt42@gmail.com
+github: https://github.com/Raven1119
+interests:
+  - AI Agent 与科研智能体
+  - 可复用科研工作流
+  - 神经接口材料
+  - 高分子膜分离模拟

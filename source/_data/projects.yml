@@ -1,0 +1,10 @@
+# 已核验公开仓库；description 留空，避免推断项目定位。可直接添加自己的简介。
+- name: Lumina
+  url: https://github.com/Raven1119/Lumina
+  description: ''
+- name: CyberScientist
+  url: https://github.com/Raven1119/CyberScientist
+  description: ''
+- name: Noespire
+  url: https://github.com/Raven1119/Noespire
+  description: ''

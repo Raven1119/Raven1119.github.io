@@ -1,0 +1,4 @@
+<% const rows = (typeof posts !== 'undefined' ? posts : page.posts).toArray(); %>
+<div class="post-list"><% rows.forEach((post,i) => { %>
+<a class="post-row" href="<%= url_for(post.path) %>"><span class="post-order"><%= String(i+1).padStart(2,'0') %></span><div><div class="meta"><time datetime="<%= date_xml(post.date) %>"><%= date(post.date,'YYYY.MM.DD') %></time><span><%= post.starter ? '可删除的起步示例' : post.categories.length ? post.categories.first().name : '手记' %></span></div><h3><%= post.title %></h3><p><%= post.summary || strip_html(post.excerpt || '').slice(0,120) %></p></div><span class="row-plus" aria-hidden="true">＋</span></a>
+<% }); if(!rows.length){ %><p class="empty">还没有文章。新的记录会出现在这里。</p><% } %></div>

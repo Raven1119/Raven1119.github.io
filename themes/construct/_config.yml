@@ -1,0 +1,16 @@
+# blue / grey / night，均为已确认 V2 原始配色
+default_theme: blue
+motion: true
+navigation:
+  - label: 首页
+    en: INDEX
+    url: /
+  - label: 手记
+    en: NOTES
+    url: /archives/
+  - label: 项目
+    en: PROJECTS
+    url: /projects/
+  - label: 关于
+    en: ABOUT
+    url: /about/

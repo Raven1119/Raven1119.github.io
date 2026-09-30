@@ -1,0 +1,46 @@
+/* Constructivist Interface Language 1.0.0. Exact V2 values; scoped, no global reset. */
+[data-cil]{
+  --cil-paper:#eeece3;
+  --cil-card:#f8f6ee;
+  --cil-ink:#191c1b;
+  --cil-muted:#5c625f;
+  --cil-line:#bfc1b8;
+  --cil-accent:#2045bf;
+  --cil-on:#f8f6ee;
+  --cil-wash:#dce1e1;
+  --cil-display:Impact,"Arial Narrow","Arial Black","Noto Sans CJK SC",sans-serif;
+  --cil-sans:Arial,"Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+  --cil-mono:"Cascadia Mono","SFMono-Regular",Consolas,"Liberation Mono",monospace;
+  --cil-body-size:15px;
+  --cil-body-leading:1.65;
+  --cil-heading-size:46px;
+  --cil-heading-leading:1.16;
+  --cil-control-min-height:44px;
+  --cil-rail-width:86px;
+  --cil-topbar-height:74px;
+  --cil-scene-max-width:1450px;
+  --cil-rule-thin:1px;
+  --cil-rule-strong:2px;
+  --cil-focus-width:3px;
+  --cil-focus-offset:5px;
+}
+[data-cil][data-cil-theme="grey"]{
+  --cil-paper:#e6e6e0;
+  --cil-card:#f3f3ed;
+  --cil-ink:#252b2a;
+  --cil-muted:#606967;
+  --cil-line:#b7bebb;
+  --cil-accent:#526964;
+  --cil-on:#f7f6ef;
+  --cil-wash:#cbd3cd;
+}
+[data-cil][data-cil-theme="night"]{
+  --cil-paper:#181c1e;
+  --cil-card:#22272a;
+  --cil-ink:#e3e5db;
+  --cil-muted:#a7b1b0;
+  --cil-line:#4d585b;
+  --cil-accent:#a9baf2;
+  --cil-on:#171c27;
+  --cil-wash:#343f4c;
+}
